@@ -29,12 +29,12 @@ class wrong_index: my_exceptions
 {
 	public:
 		wrong_index(int line, std::string filename, std::string text = "Неправильный индекс"):
-				my_exceptions(line, filename, text) {};
+			my_exceptions(line, filename, text) {};
 };
 
 class wrong_memory: my_exceptions
 {
 	public:
 		wrong_memory(int line, std::string filename, std::string text = "Ошибка памяти"):
-				my_exceptions(line, filename, text) {};
+			my_exceptions(line, filename, text) {};
 };
